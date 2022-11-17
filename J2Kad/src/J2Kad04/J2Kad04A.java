@@ -1,3 +1,5 @@
+package J2Kad04;
+
 /*
     課題名：J2Kad04A
     作成日：2022/10/06
@@ -7,7 +9,7 @@ public class J2Kad04A {
     public static void main(String[] args) {
         System.out.println("10枚カードを引きます！");
         for(int i = 0 ; i < 10 ; i++){
-            Card card = new Card();
+            Cards card = new Cards();
             System.out.println("カードの番号は" + card.getNumber() +"です！");
         }
     }

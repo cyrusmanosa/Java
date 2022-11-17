@@ -5,25 +5,14 @@ public class Stack {
     private int sp;
 
     public Stack(int size) {
-        this.stack = new String[size];
+        stack = new String[size];
         sp = 0;
     }
-    public void push(int data) {
-        stack[sp++] = data;
-    }
-    public int pop() {
-        return stack[--sp];
-    }
-    public int getData(int i) {
-        return stack[i];
-    }
-    public int size() {
-        return sp;
-    }
-    public boolean isEmpty() {
-        return (sp <= 0);
-    }
-    public boolean isFull() {
-        return (sp >= stack.length);
-    }
+    public void push(String data) { stack[sp++] = data; }
+    public String pop() { return stack[--sp]; }
+    public String getData(int i) { return stack[i]; }
+    public int size() { return sp; }
+    public boolean isEmpty() { return (sp <= 0); }
+    public boolean isFull() { return (sp >= stack.length); }
 }
+

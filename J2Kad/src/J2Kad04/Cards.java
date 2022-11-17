@@ -1,6 +1,6 @@
 package J2Kad04;
 
-public class Card {
+public class Cards {
     private static int[] cards={0,1,2,3,4,5,6,7,8,9};
     private static int rest = cards.length;
 
@@ -8,7 +8,7 @@ public class Card {
         return cards[rest];
     }
 
-    Card(){
+    Cards(){
         int rand = (int)(Math.random()*rest);
         int swap = cards[rand];
         cards[rand] = cards[rest - 1];

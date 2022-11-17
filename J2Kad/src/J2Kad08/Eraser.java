@@ -1,3 +1,5 @@
+package J2Kad08;
+
 public class Eraser implements IShape{
     public void draw(Canvas c) {
         for (int y = 0; y < c.getHeight(); y++) {

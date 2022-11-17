@@ -1,3 +1,5 @@
+package J2Kad08;
+
 public class Circle implements IShape{
     private int x;
     private int y;

@@ -1,3 +1,5 @@
+package J2Kad02;
+
 import java.util.*;
 public class J2Kad02A {
     static Scanner in = new Scanner(System.in);
